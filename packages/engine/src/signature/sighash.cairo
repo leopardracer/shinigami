@@ -167,7 +167,7 @@ pub type SighashExtFlag = u8;
 // Base extension flag. Sighash digest message doesn't change. Used for Segwit v1 spends (aka
 // tapscript keyspend path).
 pub const BASE_SIGHASH_EXT_FLAG: SighashExtFlag = 0;
-// Tapscript extesion flag. Used for tapscript base leaf version spend as defined in BIP-342.
+// Tapscript extension flag. Used for tapscript base leaf version spend as defined in BIP-342.
 pub const TAPSCRIPT_SIGHASH_EXT_FLAG: SighashExtFlag = 1;
 
 // TaprootSighashOptions houses options who modify how the sighash digest is computed.
