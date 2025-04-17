@@ -50,7 +50,7 @@ pub struct Engine<T> {
     pub witness_program: ByteArray,
     // The witness version
     pub witness_version: i64,
-    // The taproot context for exection
+    // The taproot context for execution
     pub taproot_context: TaprootContext,
     // Whether to use taproot
     pub use_taproot: bool,
